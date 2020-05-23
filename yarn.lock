@@ -290,7 +290,7 @@
 
 "@typescript-eslint/eslint-plugin@^3.0.0":
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.0.0.tgz?cache=0&sync_timestamp=1590174062741&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-3.0.0.tgz#02f8ec6b5ce814bda80dfc22463f108bed1f699b"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.0.0.tgz#02f8ec6b5ce814bda80dfc22463f108bed1f699b"
   integrity sha1-Avjsa1zoFL2oDfwiRj8Qi+0faZs=
   dependencies:
     "@typescript-eslint/experimental-utils" "3.0.0"
@@ -311,7 +311,7 @@
 
 "@typescript-eslint/parser@^3.0.0":
   version "3.0.0"
-  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-3.0.0.tgz?cache=0&sync_timestamp=1590174061515&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40typescript-eslint%2Fparser%2Fdownload%2F%40typescript-eslint%2Fparser-3.0.0.tgz#fe9fdf18a1155c02c04220c14506a320cb6c6944"
+  resolved "https://registry.npm.taobao.org/@typescript-eslint/parser/download/@typescript-eslint/parser-3.0.0.tgz#fe9fdf18a1155c02c04220c14506a320cb6c6944"
   integrity sha1-/p/fGKEVXALAQiDBRQajIMtsaUQ=
   dependencies:
     "@types/eslint-visitor-keys" "^1.0.0"
@@ -1523,7 +1523,7 @@ human-signals@^1.1.1:
 
 husky@^4.2.5:
   version "4.2.5"
-  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
+  resolved "https://registry.npm.taobao.org/husky/download/husky-4.2.5.tgz?cache=0&sync_timestamp=1586469908461&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-4.2.5.tgz#2b4f7622673a71579f901d9885ed448394b5fa36"
   integrity sha1-K092Imc6cVefkB2Yhe1Eg5S1+jY=
   dependencies:
     chalk "^4.0.0"
@@ -1863,7 +1863,7 @@ lines-and-columns@^1.1.6:
 
 lint-staged@^10.2.6:
   version "10.2.6"
-  resolved "https://registry.npm.taobao.org/lint-staged/download/lint-staged-10.2.6.tgz#7d9658bd89dee946a859cbfc6e09566a9fb50b53"
+  resolved "https://registry.npm.taobao.org/lint-staged/download/lint-staged-10.2.6.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flint-staged%2Fdownload%2Flint-staged-10.2.6.tgz#7d9658bd89dee946a859cbfc6e09566a9fb50b53"
   integrity sha1-fZZYvYne6UaoWcv8bglWap+1C1M=
   dependencies:
     chalk "^4.0.0"
