@@ -1,0 +1,206 @@
+@hd: 1px; // 基本单位
+
+// 色彩
+// ---
+// 全局/主题色
+@brand-primary-tap: #E66307;
+@brand-primary-base: #FF7819;
+@brand-primary-caption: #FFF1E8;
+@brand-primary-disabled: #FFBB8C;
+
+// 全局/辅助色
+@brand-secondary-tap: #2576D8;
+@brand-secondary-base: #FF7819;
+@brand-secondary-caption: #9DC9FF;
+@brand-secondary-disabled: #EBF4FF;
+
+// 全局/状态色
+@brand-info-tap: #4FB21D;
+@brand-info-base: #5ECB28;
+@brand-info-caption: #AEE593;
+@brand-info-disabled: #EEF9E9;
+
+// 全局/警告色
+@brand-warning-tap: #E71919;
+@brand-warning-base: #FF1919;
+@brand-warning-caption: #FFE8E8;
+@brand-warning-disabled: #FF8C8C;
+
+// 文字/背景色
+@color-text-primary: #333333;
+@color-text-secondary: #666666;
+@color-text-caption: #999999;
+@color-text-disabled: #B8B8B8;
+
+// 导航栏
+@tabs-fill-primary: #394466;
+@tabs-fill-secondary: #495882;
+@tabs-text-base: #8192C0;
+@tabs-text-tap: #FFFFFF;
+
+// 色彩变量
+@transparent: transparent;
+// 配色白
+@white: #FFFFFF;
+@white-1: rgba(255, 255, 255, 0.5);
+// 配色黑
+@black: #000000;
+@black-1: rgba(0, 0, 0, 0.05);
+@black-2: rgba(0, 0, 0, 0.7);
+// 配色灰
+@grey-1: #dddddd;
+
+// 字体尺寸
+// ---
+@font-size-icontext: 10 * @hd;
+@font-size-caption-sm: 12 * @hd;
+@font-size-base: 14 * @hd;
+@font-size-subhead: 15 * @hd;
+@font-size-caption: 16 * @hd;
+@font-size-heading: 17 * @hd;
+
+// 圆角
+// ---
+@radius-xs: 2 * @hd;
+@radius-sm: 3 * @hd;
+@radius-md: 5 * @hd;
+@radius-ld: 6 * @hd;
+@radius-lg: 7 * @hd;
+@radius-circle: 50%;
+
+// 边框尺寸
+// ---
+@border-width-sm: @hd;
+@border-width-md: @hd;
+@border-width-lg: 2 * @hd;
+
+// 间距
+// ---
+// 水平间距
+@h-spacing-sm: 6 * @hd;
+@h-spacing-lm: 8 * @hd;
+@h-spacing-md: 10 * @hd;
+@h-spacing-lg: 16 * @hd;
+
+// 垂直间距
+@v-spacing-xs: 4 * @hd;
+@v-spacing-sm: 6 * @hd;
+@v-spacing-lm: 8 * @hd;
+@v-spacing-md: 10 * @hd;
+@v-spacing-lg: 16 * @hd;
+@v-spacing-xl: 22 * @hd;
+
+// 高度
+// ---
+@line-height-base: 1; // 单行行高
+@line-height-paragraph: 1.5; // 多行行高
+
+// 图标尺寸
+// ---
+@icon-size-xxs: 15 * @hd;
+@icon-size-xs: 18 * @hd;
+@icon-size-sm: 21 * @hd;
+@icon-size-md: 22 * @hd; // 导航条上的图标、grid的图标大小
+@icon-size-lm: 24 * @hd;
+@icon-size-lg: 36 * @hd;
+
+// z-index
+@progress-zindex: 2000;
+@popover-zindex: 1999;
+@toast-zindex: 1999;
+@action-sheet-zindex: 1000; // actonsheet 会放到 popup / modal 中
+@picker-zindex: 1000;
+@popup-zindex: 999;
+@modal-zindex: 999; // modal.alert 应该最大，其他应该较小
+@tabs-pagination-zindex: 999;
+@mask-zindex: 998;
+
+// ----------------------- mask Start -----------------------
+
+// ----------------------- mask End -----------------------
+
+// ----------------------- switch Start -----------------------
+@switch-width: 52px;
+@switch-height: 32px;
+@opacity-disabled: 0.5;
+@switch-border-radius: @switch-height / 2;
+@switch-circle-size: 28px;
+@switch-checked-bg-color: @brand-primary-base;
+@switch-checked-border-color: @brand-primary-base;
+@switch-border-color: #E1E1E1;
+@switch-bg-color: @white;
+@switch-disabled-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+@switch-circle-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+@switch-checked-circle-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.15), 0 1px 1px 0 rgba(0, 0, 0, 0.16), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+// ----------------------- switch End -----------------------
+
+// ----------------------- button Start-----------------------
+// 按钮宽度
+@button-width-large: 90.67%; // 340/375
+@button-width-medium: 240 * @hd;
+@button-width-small: 146 * @hd;
+@button-width-mini: 88 * @hd;
+// 按钮高度
+@button-height-default: 52 * @hd;
+@button-height-large: 48 * @hd;
+@button-height-medium: 44 * @hd;
+@button-height-small: 44 * @hd;
+@button-height-mini: 32 * @hd;
+// 按钮圆角：全圆角、大圆角、小圆角、矩形
+@button-border-radius-100: 30 * @hd;
+@button-border-radius-normal: 6 * @hd;
+@button-border-radius-small: 4 * @hd;
+@button-border-radius-0: 0;
+// 按钮字体大小
+@button-font-size-large: 18 * @hd;
+@button-font-size-small: 14 * @hd;
+// 幽灵按钮 默认背景色
+@button-ghost-bg-color: @white;
+@button-ghost-disabled-bg-color: @white;
+// 实心按钮 字体颜色
+@button-solid-font-color: @white;
+@button-solid-disabled-font-color: @white-1;
+// ----------------------- button End-------------------------
+
+// modal 组件
+@modal-zindex: 999;
+@modal-width: 280 * @hd;
+
+@modal-body-font-size: 14 * @hd;
+@modal-mask: rgba(12, 8, 8, 0.4); // 遮罩背景
+@modal-color-text: #000;
+@modal-font-size-heading: 16 * @hd;
+@modal-button-font-size: 16 * @hd; // 按钮字号
+@modal-button-height: 50 * @hd; // 按钮高度
+@modal-fill-base: #fff;
+@modal-v-spacing-xs: 8 * @hd;
+@modal-v-spacing-sm: 16 * @hd;
+@modal-v-spacing-md: 22 * @hd;
+@modal-v-spacing-lg: 24 * @hd;
+@modal-v-spacing-xl: 32 * @hd;
+@modal-h-spacing-lg: 16 * @hd;
+@modal-close-width: 18 * @hd;
+@modal-close-height: 18 * @hd;
+// ----------------------- toast Start-------------------------
+// 轻提示背景色
+@toast-wrap-bg-color: @black-2;
+// 轻提示字体颜色
+@toast-font-color: @white;
+// 轻提示圆角大小
+@toast-border-radius: @radius-ld;
+// 轻提示最小最大宽度
+@toast-mini-width: 150 * @hd;
+@toast-max-width: 300 * @hd;
+// 轻提示最小最大高度
+@toast-max-height: 300 * @hd;
+// ----------------------- toast End-------------------------
+@modal-mask-bg: rgba(12, 8, 8, 0.4); // 遮罩背景
+// ----------------------- Radio start-------------------------
+@radio-default-size: 22 * @hd;
+@radio-checked-circle-size: 10 * @hd;
+@radio-primary-color: @brand-secondary-base;
+@radio-disabled-color: @color-text-disabled;
+@radio-primary-border-color: @color-text-caption;
+@radio-text-margin: @h-spacing-lm;
+@radio-radio-margin: @h-spacing-lg;
+// ----------------------- Radio End-------------------------

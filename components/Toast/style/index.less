@@ -1,0 +1,101 @@
+@import '../../style/themes/defaults.less';
+
+@toastPrefixCls: phi-toast;
+@toast-normal-padding: 11 * @hd 18 * @hd;
+@toast-normal-text-height: 22 * @hd;
+@toast-loading-padding: 10 * @hd 18 * @hd;
+@toast-loading-icon-size: 24 * @hd;
+@toast-loading-span-padding-left: 8 * @hd;
+@toast-loading-span-height: 22 * @hd;
+@toast-icon-mini-width: 120 * @hd;
+@toast-icon-padding: 8 * @hd 18 * @hd 12 * @hd 18 * @hd;
+@toast-icon-box-size: 48 * @hd;
+@toast-icon-text-padding-top: 2 * @hd;
+@toast-icon-size: 30 * @hd;
+
+.@{toastPrefixCls} {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: @toast-zindex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: @transparent;
+
+  &-wrap {
+    background-color: @toast-wrap-bg-color;
+    color: @toast-font-color;
+    border-radius: @toast-border-radius;
+    text-align: center;
+    box-sizing: border-box;
+
+    &-normal {
+      min-width: @toast-mini-width;
+      max-width: @toast-max-width;
+      max-height: @toast-max-height;
+      line-height: @toast-normal-text-height;
+      font-size: @font-size-caption;
+      padding: @toast-normal-padding;
+    }
+
+    &-loading {
+      min-width: @toast-mini-width;
+      max-width: @toast-max-width;
+      max-height: @toast-max-height;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: @toast-loading-padding;
+
+      &_icon {
+        width: @toast-loading-icon-size;
+        height: @toast-loading-icon-size;
+      }
+
+      &_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &_span {
+        display: inline-block;
+        font-size: @font-size-caption;
+        padding-left: @toast-loading-span-padding-left;
+        line-height: @toast-loading-span-height;
+        height: @toast-loading-span-height;
+      }
+    }
+
+    &-icon {
+      min-width: @toast-icon-mini-width;
+      max-width: @toast-max-width;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: @toast-icon-padding;
+
+      &_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: @toast-icon-box-size;
+        height: @toast-icon-box-size;
+      }
+
+      &_span {
+        font-size: @font-size-base;
+        padding-top: @toast-icon-text-padding-top;
+      }
+    }
+  }
+}
+
+.@{toastPrefixCls}-icon {
+  width: @toast-icon-size;
+  height: @toast-icon-size;
+}
